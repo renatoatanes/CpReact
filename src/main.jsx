@@ -33,7 +33,6 @@ const router = createBrowserRouter([
       },
 
       {
-
         path:"/antiga",
         element: <Navigate to="/"/>
       }

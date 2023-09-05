@@ -10,7 +10,7 @@ export default function EditarProdutos(){
         alert(`Prdouto:${produto.nome} editado com sucesso!`)
         return navegacao(`/produtos`)
     }
-
+    
     return(
         <main>
             <h1>Editando Produtos</h1>
