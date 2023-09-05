@@ -4,14 +4,20 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Outlet } from 'react-router-dom' 
 
-function App() {
- 
+import './App.css'
+import { Outlet } from 'react-router-dom'
+import Rodape from './Components/rodape'
+import Menu from './Components/menu'
 
-  return (
-    <>
-      <Outlet/>
-    </>
-  )  
+function App() {
+
+  return ( 
+  <>
+    <Menu />
+    <Outlet />
+    <Rodape/>
+  </>
+  )
 }
 
 export default App
